@@ -1,0 +1,12 @@
+interval = 120
+
+[[instances]]
+# # append some labels for series
+# labels = { region="cloud", product="n9e" }
+
+# # interval = global.interval * interval_times
+# interval_times = 1
+
+captcha_appid = "2222"
+secret_id = "dasdasdas"
+secret_key = "dasdasdsa"
