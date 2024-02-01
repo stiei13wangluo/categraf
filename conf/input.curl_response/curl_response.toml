@@ -1,0 +1,12 @@
+# # collect interval
+interval = 180
+
+[[instances]]
+
+labels = { type="baidu"}
+
+urls = [
+    "https://www.baidu.com"
+]
+
+timeout = 10
