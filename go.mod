@@ -112,6 +112,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.54.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.54.0 // indirect
 	github.com/rogpeppe/go-internal v1.8.1 // indirect
+	github.com/sashayakovtseva/go-curl v0.0.0-20200630032108-fd49ff24ed97 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
