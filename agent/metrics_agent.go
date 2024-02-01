@@ -65,6 +65,7 @@ import (
 	_ "flashcat.cloud/categraf/inputs/phpfpm"
 	_ "flashcat.cloud/categraf/inputs/ping"
 	_ "flashcat.cloud/categraf/inputs/postgresql"
+	_ "flashcat.cloud/categraf/inputs/powerdns_recursor"
 	_ "flashcat.cloud/categraf/inputs/processes"
 	_ "flashcat.cloud/categraf/inputs/procstat"
 	_ "flashcat.cloud/categraf/inputs/prometheus"
