@@ -53,6 +53,7 @@ import (
 	_ "flashcat.cloud/categraf/inputs/nats"
 	_ "flashcat.cloud/categraf/inputs/net"
 	_ "flashcat.cloud/categraf/inputs/net_response"
+	_ "flashcat.cloud/categraf/inputs/netdev_snmp"
 	_ "flashcat.cloud/categraf/inputs/netstat"
 	_ "flashcat.cloud/categraf/inputs/netstat_filter"
 	_ "flashcat.cloud/categraf/inputs/nfsclient"

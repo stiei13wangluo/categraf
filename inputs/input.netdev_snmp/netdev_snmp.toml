@@ -1,0 +1,36 @@
+interval = 15
+switch_id_label = "ident"
+
+[[instances]]
+# # interval = global.interval * interval_times
+# interval_times = 1
+
+# use global unique string to specify instance
+# labels = { region="beijing" }
+ips = [
+    "172.16.130.253",
+]
+
+max_repetitions = 20
+concurrency_for_address = 50
+concurrency_for_request = 20 # get requests 合并数量
+
+community = "public"
+ignore_ifaces = ["Nu", "NU", "Vlan", "Vl", "LoopBack", "NULL", "MEth", "Console"]
+snmp_timeout_sec = 3
+snmp_retries = 3
+# snmp_mode_gosnmp = true
+flow_metrics = true
+cpu_metrics = true
+mem_metrics = true
+errors_metrics = true
+discards_metrics = true
+broadcast_metrics = true
+multicast_metrics = true
+oper_status_metrics = true
+speed_metrics = true
+
+
+
+
+
